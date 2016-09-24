@@ -1,0 +1,16 @@
+{
+  "name": "iothubgateway",
+  "version": "1.0.0",
+  "description": "Example project for IoT Hub gateway and Genuino",
+  "main": "index.js",
+  "scripts": {
+    "test": "tes"
+  },
+  "author": "Damian Mazurek",
+  "license": "ISC",
+  "dependencies": {
+    "azure-iot-device": "^1.0.14",
+    "azure-iot-device-amqp": "^1.0.14",
+    "serialport": "^4.0.1"
+  }
+}
