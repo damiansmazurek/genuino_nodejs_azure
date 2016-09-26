@@ -7,7 +7,7 @@ module.exports =
             var data = JSON.stringify(message);
             var iotMessage = new Message(data);
             console.log("Sending message: " + iotMessage.getData());
-            client.sendEvent(iotMessage, this.printResultFor('send'));
+            this.client.sendEvent(iotMessage, this.printResultFor('send'));
         },
         printResultFor: function (op) {
             return function printResult(err, res) {
