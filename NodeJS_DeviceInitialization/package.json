@@ -1,0 +1,14 @@
+{
+  "name": "deviceinitializator",
+  "version": "1.0.0",
+  "description": "Device initializator",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Damian Mazurek",
+  "license": "MIT",
+  "dependencies": {
+    "azure-iothub": "^1.0.16"
+  }
+}
